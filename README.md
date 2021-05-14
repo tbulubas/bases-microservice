@@ -5,9 +5,9 @@ docker build -t tbulubas/bases-microservice .
 
 docker image ls | grep bases
 
-docker run -d --name bases-microservice tbulubas/bases-microservice
+docker run -d -p 8080:8080 --name bases-microservice tbulubas/bases-microservice
 
-docker container ls -a  grep bases
+docker container ls -a | grep bases
 
 docker exec -it bases-microservice bash
 

@@ -1,6 +1,15 @@
 server:
   port: 8080
 
+info:
+  description: "base-microservice with spring boot and java 11"
+  author: "Taras Bulubas"
+  docker-image: "tbulubas/base-microservice"
+  github:
+    http: "https://github.com/tbulubas/bases-microservice.git"
+    ssh: "git@github.com:tbulubas/bases-microservice.git"
+    cli: "gh repo clone tbulubas/bases-microservice"
+
 spring:
   flyway:
     enabled: false
